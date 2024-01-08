@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(3, 3, 77);
+        color: rgb(32, 63, 216);
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      input {
+        height: 28px;
+        width: 70vw;
+        font-size: 18px;
+      }
+      button {
+        height: 40px;
+        width: 120px;
+        border-radius: 22px;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SignUp Form</h1>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+      <!-- <label for="">Name</label>
+      <input type="text" name="name" />
+      <label for="">Email</label>
+      <input type="text" name="email" />
+      <label for="">Pasword</label>
+      <input type="text" name="password" /> -->
+      <!-- <label for="">Upload File</label> -->
+      <input type="file" name="ProfileImage" id="" />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
